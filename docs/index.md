@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+# Text Complexity DE Challenge 2022
 
-You can use the [editor on GitHub](https://github.com/QULab/text_complexity_challlenge/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Text forms an integral part of exchanging information and interacting with the world, correlating with quality and experience of life. Text readability is one of the factors which affects a reader's understanding of a text. The mapping of a body of text to a mathematical unit quantifying the degree of readability is the basis of readability assessment. This quantified unit is significant in informing the reader about how difficult the text content is to read. Readability assessment has diverse use cases and applications, such as helping to choose appropriate learning material for second language learners, people with disabilities, and providing targeted content for various groups in the general population (e.g. against misinformation). As readability might be influenced by representation, we only target the text complexity for readers in this task. Furthermore, a reliable text complexity estimator can be used to automatically evaluate simplified text (produced by authors or automatic simplifiers). 
 
-### Markdown
+This task consists of developing Deep Neural Network based regression models to predict the complexity of a sentence in German for German learners in the B level.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+We will use Codalab to organize the challenge.
 
-```markdown
-Syntax highlighted code block
+[codalab](https://competitions.codalab.org/competitions/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Timeline
+- **Trial data ready: April 11th, 2022**
+- Training data ready: May 16th, 2022
+- Baseline model ready: May 23rd, 2022.
+- Test data ready: June 20th, 2022
+- Evaluation starts: June 27th, 2022
+- Evaluation end: July 4th, 2022
+- Paper submission due: July 15th, 2022
+- Camera ready due: August 12th, 2022
+- KONVENS conference: September 12th-15th, 2022
 
-1. Numbered
-2. List
+## Data
 
-**Bold** and _Italic_ and `Code` text
+The [TextComplexityDE](https://github.com/babaknaderi/TextComplexityDE) dataset [1] will be used for this task which includes about 1000 sentences in German that were taken from 41 Wikipedia articles in different article genres. 
+Overall, the readability ratings were taken from multiple groups of German learners who participated in the subjective study. They mostly had German language levels between A2 and B.
+During the subjective test, participants rated the complexity, understandability, and lexical difficulty of each sentence on 7 point Likert-scales:
 
-[Link](url) and ![Image](src)
-```
+ - **Complexity:** How do you rate the complexity of the sentence? Scale from _very easy (1)_ to _very complex (7)_.
+ - **Understandability**: How well were you able to understand the sentence? Scale from _fully understood (1)_ to _didn't understand at all (7)_.
+ - **Lexical difficulty**: Regarding the hardest words in the sentence: How difficult is it to you, to understand these words? Scale from _very easy (1)_ to _very difficult (7)_.
+ - 
+After the data cleansing, we calculated the arithmetic mean of ratings from all participants for each sentence, creating the **Mean Opinion Score (MOS)** for each scale. Further details about the dataset and the subjective testing can be found in [1].
+In the proposed task for GermEval 2022, participants should train models that predict the MOS complexity of sentences in the test dataset. A test dataset includes 300 sentences. We conduct subjective tests with German learners to collect subjective MOS scores for the test dataset. 
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Evaluation
 
-### Jekyll Themes
+The blind test dataset will be published on June 20th, 2022. Each participating team has to submit the result of their prediction until July 4th 2022. The participating teams will submit the ID and predicted scores for the complexity of sentences in the test set. The Root Mean Squared Error (RMSE) after 3rd order mapping  will be used to measure errors (accuracy) of submissions compared to the subjective ratings.  RMSE is the standard deviation of the prediction errors, which is the difference of predicted values from actual values.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/QULab/text_complexity_challlenge/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Due to bias or offsets, different gradients and different qualitative rank orders are always present in subjective evaluations. The statistical uncertainty always exists in the collected MOS. Therefore, a third-order polynomial function is applied to compensate for the possible variance between several subjective experiments in this challenge. For each model, we create one mapping function per test dataset. Then the mapped predictions were used to calculat the RMSE.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Organizers
+
+- [Salar Mohtaj](https://www.tu.berlin/index.php?id=29512), NLP Research Scientist,Technical University of Berlin,  DFKI Berlin
+- [Babak Naderi](https://www.tu.berlin/index.php?id=29496), Research Scientist, Technical University of Berlin
+- [Sebastian Möller](https://www.tu.berlin/index.php?id=16022), Professor Technical University of Berlin, Head of the Research Department Speech and Language Technology, DFKI
+
+
+## References
+
+[1] Naderi, B., Mohtaj, S., Ensikat, K., & Möller, S. (2019). Subjective assessment of text complexity: A dataset for german language. arXiv preprint arXiv:1904.07733.
