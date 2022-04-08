@@ -1,1 +1,6 @@
 remote_theme: just-the-docs/just-the-docs
+
+title: Text Complexity DE Challenge 2022
+description: GermEval Shared Task
+baseurl: "/text_complexity_challlenge" # the subpath of your site, e.g. /blog
+url: "https:/qul.github.io/text_complexity_challlenge"
