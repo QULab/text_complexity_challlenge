@@ -34,6 +34,12 @@ During the subjective test, participants rated the complexity, understandability
 After the data cleansing, we calculated the arithmetic mean of ratings from all participants for each sentence, creating the **Mean Opinion Score (MOS)** for each scale. Further details about the dataset and the subjective testing can be found in [1].
 In the proposed task for GermEval 2022, participants should train models that predict the MOS complexity of sentences in the test dataset. A test dataset includes 300 sentences. We conduct subjective tests with German learners to collect subjective MOS scores for the test dataset. 
 
+### Trial Data
+|<sup>The name</sub>|<sup>Language</sub>|<sup>Domain</sub>|<sup># of instance</sub>|<sup>Reference</sub>|
+|------|---|---|---|---|
+|<sup>Liar, Liar Pants on Fire: A New Benchmark Dataset for Fake News Detection</sub>|<sup>English</sub>|<sup>Social Media</sub>|<sup>-</sub>|[<sup>[1]</sub>](#1-wang-william-yang--liar-liar-pants-on-fire-a-new-benchmark-dataset-for-fake-news-detection-arxiv-preprint-arxiv170500648-2017)|
+
+
 ## Evaluation
 
 The blind test dataset will be published on June 20th, 2022. Each participating team has to submit the result of their prediction until July 4th 2022. The participating teams will submit the ID and predicted scores for the complexity of sentences in the test set. The Root Mean Squared Error (RMSE) after 3rd order mapping  will be used to measure errors (accuracy) of submissions compared to the subjective ratings.  RMSE is the standard deviation of the prediction errors, which is the difference of predicted values from actual values.
