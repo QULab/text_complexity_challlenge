@@ -37,24 +37,23 @@ In the proposed task for GermEval 2022, participants should train models that pr
 ### Trial Data
 <table>
 <colgroup>
-<col width="30%" />
-<col width="70%" />
+<col width="80%" />
+<col width="20%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th>Field</th>
-<th>Description</th>
+<th>Sentence</th>
+<th>Complexity score</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td markdown="span">First column **fields**</td>
-<td markdown="span">Some descriptive text. This is a markdown link to [Google](http://google.com). Or see [some link][mydoc_tags].</td>
+<td markdown="span">Als Nebenprodukt entstand damals natürlich auch die erste Seifenblase.</td>
+<td markdown="span">1.60</td>
 </tr>
 <tr>
-<td markdown="span">Second column **fields**</td>
-<td markdown="span">Some more descriptive text.
-</td>
+<td markdown="span">Griechische ärzte wandten bereits Hydrotherapie an, die sie von den ägyptern  übernommen hatten.</td>
+<td markdown="span">2.13</td>
 </tr>
 </tbody>
 </table>
