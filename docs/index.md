@@ -55,6 +55,14 @@ In the proposed task for GermEval 2022, participants should train models that pr
 <td markdown="span">Griechische ärzte wandten bereits Hydrotherapie an, die sie von den ägyptern  übernommen hatten.</td>
 <td markdown="span">2.13</td>
 </tr>
+<tr>
+<td markdown="span">In Abgrenzung zum klassischen Rasiermesser wird ein Rasiermesser mit Wechselklinge als Shavette bezeichnet.</td>
+<td markdown="span">3.25</td>
+</tr>
+<tr>
+<td markdown="span">In Pompeji gefundene Exemplare von frühen Klapp-Rasiermessern mit 12 Zentimeter langen trapezförmigen Klingen und Griffen aus Elfenbein gehörten als Luxusobjekte zum Hausstand höherer Schichten.</td>
+<td markdown="span">4.36</td>
+</tr>
 </tbody>
 </table>
 
