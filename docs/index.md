@@ -35,9 +35,6 @@ After the data cleansing, we calculated the arithmetic mean of ratings from all 
 In the proposed task for GermEval 2022, participants should train models that predict the MOS complexity of sentences in the test dataset. A test dataset includes 300 sentences. We conduct subjective tests with German learners to collect subjective MOS scores for the test dataset. 
 
 ### Trial Data
-|<sup>The name</sub>|<sup>Language</sub>|
-|------|---|
-|<sup>LiarFake News Detection</sub>|<sup>English</sub>|
 
 
 ## Evaluation
