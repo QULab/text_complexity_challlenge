@@ -35,9 +35,9 @@ After the data cleansing, we calculated the arithmetic mean of ratings from all 
 In the proposed task for GermEval 2022, participants should train models that predict the MOS complexity of sentences in the test dataset. A test dataset includes 300 sentences. We conduct subjective tests with German learners to collect subjective MOS scores for the test dataset. 
 
 ### Trial Data
-|<sup>The name</sub>|<sup>Language</sub>|<sup>Domain</sub>|<sup># of instance</sub>|<sup>Reference</sub>|
-|------|---|---|---|---|
-|<sup>Liar, Liar Pants on Fire: A New Benchmark Dataset for Fake News Detection</sub>|<sup>English</sub>|<sup>Social Media</sub>|<sup>-</sub>|[<sup>[1]</sub>](#1-wang-william-yang--liar-liar-pants-on-fire-a-new-benchmark-dataset-for-fake-news-detection-arxiv-preprint-arxiv170500648-2017)|
+|<sup>The name</sub>|<sup>Language</sub>|
+|------|---|
+|<sup>LiarFake News Detection</sub>|<sup>English</sub>|
 
 
 ## Evaluation
