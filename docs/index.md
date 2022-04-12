@@ -3,7 +3,7 @@
 
 Text forms an integral part of exchanging information and interacting with the world, correlating with quality and experience of life. Text readability is one of the factors which affects a reader's understanding of a text. The mapping of a body of text to a mathematical unit quantifying the degree of readability is the basis of readability assessment. This quantified unit is significant in informing the reader about how difficult the text content is to read. Readability assessment has diverse use cases and applications, such as helping to choose appropriate learning material for second language learners, people with disabilities, and providing targeted content for various groups in the general population (e.g. against misinformation). As readability might be influenced by representation, we only target the text complexity for readers in this task. Furthermore, a reliable text complexity estimator can be used to automatically evaluate simplified text (produced by authors or automatic simplifiers). 
 
-This task consists of developing Deep Neural Network based regression models to predict the complexity of a sentence in German for German learners in the B level.
+This task consists of developing machine learning based regression models to predict the complexity of a sentence in German for German learners in the B level.
 
 We will use Codalab to organize the challenge.
 
