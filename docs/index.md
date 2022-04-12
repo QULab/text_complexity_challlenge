@@ -5,7 +5,7 @@ Text forms an integral part of exchanging information and interacting with the w
 
 This task consists of developing machine learning based regression models to predict the complexity of a sentence in German for German learners in the B level. We encourage participants to train deep learning based models since they show better performance in similar tasks.
 
-We will use Codalab to organize the challenge. The Codalab competition page will be up on 20th April.
+We will use Codalab to organize the challenge. The Codalab competition page will be up on 20th April 2022.
 
 [codalab](https://competitions.codalab.org/competitions/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
