@@ -32,7 +32,7 @@ During the subjective test, participants rated the complexity, understandability
  - **Lexical difficulty**: Regarding the hardest words in the sentence: How difficult is it to you, to understand these words? Scale from _very easy (1)_ to _very difficult (7)_.
  - 
 After the data cleansing, we calculated the arithmetic mean of ratings from all participants for each sentence, creating the **Mean Opinion Score (MOS)** for each scale. Further details about the dataset and the subjective testing can be found in [1].
-In the proposed task for GermEval 2022, participants should train models that predict the MOS complexity of sentences in the test dataset. A test dataset includes 300 sentences. We conduct subjective tests with German learners to collect subjective MOS scores for the test dataset. 
+In the proposed task for KONVENS 2022, participants should train models that predict the MOS complexity of sentences in the test dataset. A test dataset includes 300 sentences. We conduct subjective tests with German learners to collect subjective MOS scores for the test dataset. 
 
 ### Trial Data
 <table>
