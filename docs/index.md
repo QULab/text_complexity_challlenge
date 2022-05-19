@@ -7,12 +7,12 @@ This task consists of developing machine learning based regression models to pre
 
 We will use Codalab to organize the challenge. The Codalab competition page will be up on 20th April 2022.
 
-[codalab](https://competitions.codalab.org/competitions/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[codalab](https://codalab.lisn.upsaclay.fr/competitions/4964){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 
 ## Timeline
 - **<strike>Trial data ready: April 11th, 2022</strike>** see [below](#trial-data)
-- Training data ready: May 16th, 2022
+- **<strike>Training data ready: May 16th, 2022/strike>** download from [here](https://raw.githubusercontent.com/babaknaderi/TextComplexityDE/master/TextComplexityDE19/ratings.csv)
 - Baseline model ready: May 23rd, 2022.
 - Test data ready: June 20th, 2022
 - Evaluation starts: June 27th, 2022
