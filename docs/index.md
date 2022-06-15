@@ -9,6 +9,10 @@ We will use Codalab to organize the challenge. The Codalab competition page will
 
 [codalab](https://codalab.lisn.upsaclay.fr/competitions/4964){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
+## Leaderboard
+
+<iframe src="http://codalab.lisn.upsaclay.fr/competitions/leaderboard_widget/4964/" style="height: 500px; width: 100%; border: none;"></iframe>
+
 
 ## Timeline
 - **<strike>Trial data ready: April 11th, 2022</strike>** see [below](#trial-data)
