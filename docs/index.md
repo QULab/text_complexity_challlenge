@@ -17,7 +17,7 @@ We will use Codalab to organize the challenge. The Codalab competition page will
 ## Timeline
 - **<strike>Trial data ready: April 11th, 2022</strike>** see [below](#trial-data)
 - **<strike>Training data ready: May 16th, 2022</strike>** download from [here](https://raw.githubusercontent.com/babaknaderi/TextComplexityDE/master/TextComplexityDE19/ratings.csv)
-- **<strike>Baseline model ready: May 23rd, 2022</strike>** download from [here](https://codalab.lisn.upsaclay.fr/competitions/4964#results)
+- **<strike>Baseline model ready: May 23rd, 2022</strike>** see [here](https://codalab.lisn.upsaclay.fr/competitions/4964#results)
 - Test data ready: June 20th, 2022
 - Evaluation starts: June 27th, 2022
 - Evaluation end: July 4th, 2022
