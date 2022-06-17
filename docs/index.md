@@ -80,7 +80,7 @@ Due to bias or offsets, different gradients and different qualitative rank order
 
 ## Organizers
 
-- [Salar Mohtaj](https://www.tu.berlin/index.php?id=29512), NLP Research Scientist,Technical University of Berlin,  DFKI Berlin
+- [Salar Mohtaj](https://www.linkedin.com/in/salar-mohtaj/), Research Scientist, SLT Research Department at DFKI Berlin, Technical University of Berlin, 
 - [Babak Naderi](https://www.tu.berlin/index.php?id=29496), Research Scientist, Technical University of Berlin
 - [Sebastian Möller](https://www.tu.berlin/index.php?id=16022), Professor Technical University of Berlin, Head of the Research Department Speech and Language Technology, DFKI
 
