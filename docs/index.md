@@ -17,7 +17,7 @@ We will use Codalab to organize the challenge. The Codalab competition page will
 - **<strike>Test data ready: June 20th, 2022</strike>**
 - **<strike>Evaluation starts: June 27th, 2022</strike>**
 - **<strike>Evaluation end: July 4th, 2022</strike>** see [below](#results)
-- Paper submission due: July 15th, 2022
+- Paper submission due: July 22nd, 2022 (extended)
 - Camera ready due: August 12th, 2022
 - KONVENS conference: September 12th-15th, 2022
 
