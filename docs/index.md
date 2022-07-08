@@ -9,10 +9,6 @@ We will use Codalab to organize the challenge. The Codalab competition page will
 
 [codalab](https://codalab.lisn.upsaclay.fr/competitions/4964){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
-## Leaderboard
-
-<iframe src="http://codalab.lisn.upsaclay.fr/competitions/leaderboard_widget/4964/" style="height: 500px; width: 100%; border: none;"></iframe>
-
 
 ## Timeline
 - **<strike>Trial data ready: April 11th, 2022</strike>** see [below](#trial-data)
@@ -20,7 +16,7 @@ We will use Codalab to organize the challenge. The Codalab competition page will
 - **<strike>Baseline model ready: May 23rd, 2022</strike>** see [here](https://codalab.lisn.upsaclay.fr/competitions/4964#results)
 - **<strike>Test data ready: June 20th, 2022</strike>**
 - **<strike>Evaluation starts: June 27th, 2022</strike>**
-- Evaluation end: July 4th, 2022
+- **<strike>Evaluation end: July 4th, 2022</strike>** see [below](#results)
 - Paper submission due: July 15th, 2022
 - Camera ready due: August 12th, 2022
 - KONVENS conference: September 12th-15th, 2022
@@ -76,6 +72,89 @@ In the proposed task for KONVENS 2022, participants should train models that pre
 The blind test dataset will be published on June 20th, 2022. Each participating team has to submit the result of their prediction until July 4th 2022. The participating teams will submit the ID and predicted scores for the complexity of sentences in the test set. The Root Mean Squared Error (RMSE) after 3rd order mapping  will be used to measure errors (accuracy) of submissions compared to the subjective ratings.  RMSE is the standard deviation of the prediction errors, which is the difference of predicted values from actual values.
 
 Due to bias or offsets, different gradients and different qualitative rank orders are always present in subjective evaluations. The statistical uncertainty always exists in the collected MOS. Therefore, a third-order polynomial function is applied to compensate for the possible variance between several subjective experiments in this challenge. For each model, we create one mapping function per test dataset. Then the mapped predictions were used to calculat the RMSE.
+
+
+## Results
+The table contains the best result of each team on the test dataset. The teams are ranked based on RMSE_MAPPED evaluation metric.
+
+<table>
+<colgroup>
+<col width="20%" />
+<col width="30%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Rank</th>
+<th>Team name</th>
+<th>RMSE MAPPED</th>
+<th>RMSE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td markdown="span">1</td>
+<td markdown="span">Alejandro Mosquera</td>
+<td markdown="span">0.430</td>
+<td markdown="span">0.449</td>
+</tr>
+<tr>
+<td markdown="span">2</td>
+<td markdown="span">AComplexity</td>
+<td markdown="span">0.435</td>
+<td markdown="span">0.442</td>
+</tr>
+<tr>
+<td markdown="span">3</td>
+<td markdown="span">fhewett (User)</td>
+<td markdown="span">0.446</td>
+<td markdown="span">0.462</td>
+</tr>
+<tr>
+<td markdown="span">4</td>
+<td markdown="span">TUM Social Computing</td>
+<td markdown="span">0.449</td>
+<td markdown="span">0.466</td>
+</tr>
+<tr>
+<td markdown="span">5</td>
+<td markdown="span">deepset</td>
+<td markdown="span">0.454</td>
+<td markdown="span">0.484</td>
+</tr>
+<tr>
+<td markdown="span">6</td>
+<td markdown="span">TUMuch Complexity</td>
+<td markdown="span">0.457</td>
+<td markdown="span">0.489</td>
+</tr>
+<tr>
+<td markdown="span">7</td>
+<td markdown="span">HHUplexity</td>
+<td markdown="span">0.473</td>
+<td markdown="span">0.486</td>
+</tr>
+<tr>
+<td markdown="span">8</td>
+<td markdown="span">CCL</td>
+<td markdown="span">0.516</td>
+<td markdown="span">0.586</td>
+</tr>
+<tr>
+<td markdown="span">9</td>
+<td markdown="span">BBAW Zentrum Sprache</td>
+<td markdown="span">0.553</td>
+<td markdown="span">0.583</td>
+</tr>
+<tr>
+<td markdown="span">10</td>
+<td markdown="span">LGirrbach</td>
+<td markdown="span">Error</td>
+<td markdown="span">Error</td>
+</tr>
+</tbody>
+</table>
 
 
 ## Organizers
