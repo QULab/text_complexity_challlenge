@@ -107,7 +107,7 @@ The table contains the best result of each team on the test dataset. The teams a
 </tr>
 <tr>
 <td markdown="span">3</td>
-<td markdown="span">fhewett (User)</td>
+<td markdown="span">HIIG</td>
 <td markdown="span">0.446</td>
 <td markdown="span">0.462</td>
 </tr>
