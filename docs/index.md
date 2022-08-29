@@ -162,16 +162,16 @@ The participants will present their works on September 12th at KONVENS2022 in Po
 
 ### Schedule
 
-- 13:30 – 13:50: Opening
-- 13:50 – 14:10: Everybody likes short sentences - A Data Analysis for the Text Complexity DE Challenge 2022 (BBAW Zentrum Sprache)
-- 14:10 – 14:30: HIIG at GermEval 2022: Best of Both Worlds Ensemble for Automatic Text Complexity Assessment (HIIG)
-- 14:30 – 14:50: TUM Social Computing at GermEval 2022: Towards the Significance of Text Statistics and Neural Embeddings in Text Complexity Prediction (TUM Social Computing)
-- 14:50 – 15:10: HHUplexity at Text Complexity DE Challenge 2022 (HHUplexity)
-- 15:10 – 15:30: Pseudo-Labels Are All You Need (Deepset)
-- 15:30 – 16:00: Break
-- 16:00 – 16:20: Text Complexity DE Challenge 2022 Submission Description: Pairwise Regression for Complexity Prediction (LGirrbach)
-- 16:20 – 16:40: TUM sebis at GermEval 2022: A Hybrid Model Leveraging Gaussian Processes and Fine-Tuned XLM-RoBERTa for German Text Complexity Analysis (TUMuch Complexity)
-- 16:40 – 17:00: Automatic Readability Assessment of German Sentences with Transformer Ensembles (AComplexity)
+- **13:30 – 13:50**: Opening
+- **13:50 – 14:10**: Everybody likes short sentences - A Data Analysis for the Text Complexity DE Challenge 2022 (BBAW Zentrum Sprache)
+- **14:10 – 14:30**: HIIG at GermEval 2022: Best of Both Worlds Ensemble for Automatic Text Complexity Assessment (HIIG)
+- **14:30 – 14:50**: TUM Social Computing at GermEval 2022: Towards the Significance of Text Statistics and Neural Embeddings in Text Complexity Prediction (TUM Social Computing)
+- **14:50 – 15:10**: HHUplexity at Text Complexity DE Challenge 2022 (HHUplexity)
+- **15:10 – 15:30**: Pseudo-Labels Are All You Need (Deepset)
+- **15:30 – 16:00**: Break
+- **16:00 – 16:20**: Text Complexity DE Challenge 2022 Submission Description: Pairwise Regression for Complexity Prediction (LGirrbach)
+- **16:20 – 16:40**: TUM sebis at GermEval 2022: A Hybrid Model Leveraging Gaussian Processes and Fine-Tuned XLM-RoBERTa for German Text Complexity Analysis (TUMuch Complexity)
+- **16:40 – 17:00**: Automatic Readability Assessment of German Sentences with Transformer Ensembles (AComplexity)
 
 
 ## Organizers
