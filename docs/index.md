@@ -173,6 +173,8 @@ The participants will present their works on September 12th at KONVENS2022 in Po
 - **16:20 – 16:40**: TUM sebis at GermEval 2022: A Hybrid Model Leveraging Gaussian Processes and Fine-Tuned XLM-RoBERTa for German Text Complexity Analysis (TUMuch Complexity)
 - **16:40 – 17:00**: Automatic Readability Assessment of German Sentences with Transformer Ensembles (AComplexity)
 
+## Proceedings
+The Proceedings of the shared task are available at [ACL Anthology](https://aclanthology.org/volumes/2022.germeval-1/).
 
 ## Organizers
 
